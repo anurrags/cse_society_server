@@ -10,7 +10,7 @@ export default () => {
     mongoose.connect(process.env.DB);
     console.log("Connected to database successfully");
   } catch (error) {
-    console.log(error);
-    console.log("Could not connect database!");
+    //console.log(error);
+    console.log(error,"Could not connect database!");
   }
 };
